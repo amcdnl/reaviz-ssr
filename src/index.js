@@ -13,6 +13,8 @@ const fs = require('fs');
       // encoding: "base64"
     });
 
+  console.log(`SVG`, str);
+
   console.log('Image:', image);
 
   fs.writeFileSync('dist/chart.png', image);
